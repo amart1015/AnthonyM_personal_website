@@ -1,0 +1,45 @@
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgb(22, 70, 136) 0%, rgb(52, 155, 136) 90% );
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+}
+.searchClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.loadMore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.giphyResult{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3%;
+
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
